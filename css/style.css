@@ -1,0 +1,245 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700;800&display=swap");
+body {
+  font-family: "Manrope3";
+}
+
+.top {
+  background: #f6f7fb;
+  padding: 10px 0;
+}
+.top a {
+  color: #757c8a;
+  font-family: "Manrope3";
+  font-weight: 500;
+  font-size: 16px;
+  text-decoration: none;
+}
+.top .float-left a {
+  padding-right: 25px;
+  position: relative;
+}
+.top .float-left a:after {
+  position: absolute;
+  display: block;
+  content: "";
+  width: 15px;
+  height: 15px;
+  border: 1px #757c8a solid;
+  border-radius: 50%;
+  right: 0;
+  bottom: 0;
+}
+.top .float-left a:before {
+  position: absolute;
+  display: block;
+  content: "";
+  border-left: 1px #757c8a solid;
+  border-bottom: 1px #757c8a solid;
+  right: 5px;
+  bottom: 6px;
+  transform: rotate(-45deg);
+  width: 5px;
+  height: 5px;
+}
+
+.link2 {
+  margin-left: 40px;
+}
+
+.link1 {
+  padding-left: 30px;
+  position: relative;
+}
+.link1:before {
+  background: url("../img/Vector_Smart_Object.png") no-repeat;
+  bottom: -3px;
+  position: absolute;
+  width: 25px;
+  height: 20px;
+  content: "";
+  display: block;
+}
+
+.link2 {
+  color: #1b66ff !important;
+  padding-left: 30px;
+  position: relative;
+}
+.link2:before {
+  background: url("../img/Vector_Smart_Object2.png") no-repeat;
+  bottom: -3px;
+  position: absolute;
+  width: 18px;
+  height: 18px;
+  content: "";
+  left: 0;
+  display: block;
+}
+
+.navbar-nav a {
+  color: #757c8a;
+  font-family: "Manrope 3";
+  font-size: 16px;
+  font-weight: 500;
+}
+.navbar-nav .navLink1, .navbar-nav .navLink2 {
+  position: relative;
+  padding-right: 20px !important;
+}
+.navbar-nav .navLink1:before, .navbar-nav .navLink2:before {
+  right: 7px;
+  bottom: 18px;
+  width: 5px;
+  height: 5px;
+  transform: rotate(-45deg);
+  border-bottom: 1px solid #757c8a;
+  border-left: 1px solid #757c8a;
+  content: "";
+  position: absolute;
+}
+.navbar-nav .navLink1 div, .navbar-nav .navLink2 div {
+  z-index: 10;
+  position: absolute;
+  padding: 20px 20px 0px 8px;
+  left: 0;
+  right: 0;
+  display: none;
+  color: white;
+  border-radius: 0 0 15px 15px;
+  background-color: #1b66ff;
+}
+
+.navbar-brand {
+  color: black;
+  font-size: 25px;
+  font-weight: 800;
+}
+.navbar-brand:hover {
+  color: black;
+}
+
+.navLink1.active, .navLink2.active {
+  background-color: #1b66ff;
+  border-radius: 15px 15px 0 0;
+  color: #fff;
+  position: relative;
+}
+.navLink1.active:before, .navLink2.active:before {
+  right: 7px;
+  bottom: 16px;
+  width: 5px;
+  height: 5px;
+  transform: rotate(135deg);
+  border-bottom: 1px solid white;
+  border-left: 1px solid white;
+  content: "";
+  position: absolute;
+}
+
+.row1 {
+  margin-top: 60px;
+}
+
+.inner__row1__1 p:first-child {
+  color: #222426;
+  font-family: "Manrope 3";
+  font-size: 45px;
+  font-weight: 800;
+  line-height: 55px;
+}
+.inner__row1__1 p:nth-child(2) {
+  color: #222426;
+  font-family: "Manrope 3";
+  font-size: 18px;
+  line-height: 30px;
+}
+.inner__row1__1 p:nth-child(4) {
+  color: #222426;
+  font-family: "Manrope 3";
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 35px;
+  margin-bottom: 25px;
+}
+.inner__row1__1 p:nth-child(5), .inner__row1__1 p:nth-child(6), .inner__row1__1 p:nth-child(7) {
+  position: relative;
+  padding-left: 40px;
+  color: #222426;
+  font-family: "Manrope 3";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+}
+.inner__row1__1 p:nth-child(5):before, .inner__row1__1 p:nth-child(6):before, .inner__row1__1 p:nth-child(7):before {
+  position: absolute;
+  content: "";
+  left: 10px;
+  top: 7px;
+  width: 16px;
+  height: 16px;
+  background: url("../img/checkMark.png");
+  background-size: cover;
+}
+.inner__row1__1 .linkBlock {
+  margin: 40px 0;
+}
+.inner__row1__1 .btnCustom1 {
+  background: #1b66ff;
+}
+.inner__row1__1 .btnCustom2 {
+  background: #00cc89;
+}
+.inner__row1__1 .readMore {
+  margin: 68px 0;
+  color: #525a6d;
+}
+.inner__row1__1 .readMore a {
+  display: block;
+}
+.inner__row1__1 .readMore div {
+  padding-left: 100px;
+  position: relative;
+}
+.inner__row1__1 .readMore .inner__readMore1:before {
+  position: absolute;
+  content: "";
+  width: 80px;
+  height: 80px;
+  left: 0;
+  top: 0;
+  background: url("../img/readMoreIcon1.png");
+}
+.inner__row1__1 .readMore .inner__readMore2:before {
+  position: absolute;
+  content: "";
+  width: 80px;
+  height: 80px;
+  left: 0;
+  top: 0;
+  background: url("../img/readMoreIcon2.png");
+}
+
+.background {
+  background: url("../img/BackgroundRight.png");
+  width: 500px;
+  height: 500px;
+  background-size: cover;
+  top: 40px;
+  right: 0;
+}
+
+.video {
+  bottom: 50px;
+  left: 20px;
+  color: #0e5dff;
+  font-family: "Manrope 3";
+  font-size: 20px;
+  line-height: 30px;
+}
+.video a:hover {
+  color: #0e5dff;
+  text-decoration: none;
+}
+.video .time {
+  color: #525a6d;
+}
